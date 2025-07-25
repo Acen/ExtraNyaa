@@ -6,11 +6,11 @@ ExtraNyaa is a Chrome extension that enhances your Nyaa.si browsing experience b
 
 ## Features
 
-- 🔍 **Smart Anime Detection** - Automatically matches torrents with your MyAnimeList
-- 📊 **Status Indicators** - See watching/completed/planned status at a glance  
-- 🔄 **Real-time Sync** - Stays updated with your MyAnimeList changes
-- 🎯 **Season Detection** - Handles complex anime seasons and continuations
-- ⚡ **Fast & Lightweight** - Minimal impact on browsing performance
+- **Smart Anime Detection** - Automatically matches torrents with your MyAnimeList
+- **Status Indicators** - See watching/completed/planned status at a glance  
+- **Real-time Sync** - Stays updated with your MyAnimeList changes
+- **Season Detection** - Handles complex anime seasons and continuations
+- **Fast & Lightweight** - Minimal impact on browsing performance
 
 ## Installation
 
