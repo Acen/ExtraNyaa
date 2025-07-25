@@ -21,13 +21,10 @@ ExtraNyaa is a Chrome extension that enhances your Nyaa.si browsing experience b
 5. **Click** "Load unpacked" and select the extracted folder
 6. **Setup** your MyAnimeList authentication in the extension popup
 
-For detailed installation instructions, see our [Installation Guide](docs/installation.md).
-
 ## Bug Reports & Feature Requests
 
 - **Found a bug?** [Report it here](https://github.com/Acen/ExtraNyaa/issues/new?template=bug_report.md)
 - **Have an idea?** [Request a feature](https://github.com/Acen/ExtraNyaa/issues/new?template=feature_request.md)
-- **Need help?** Check our [Troubleshooting Guide](docs/troubleshooting.md)
 
 ## Latest Release
 
