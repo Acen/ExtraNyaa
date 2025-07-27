@@ -1,0 +1,105 @@
+name: Bug Report
+description: Report a bug or issue with ExtraNyaa
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+        
+        Thanks for taking the time to report a bug! Please fill out the information below to help us reproduce and fix the issue.
+
+  - type: dropdown
+    id: bug_type
+    attributes:
+      label: Bug Category
+      description: What type of issue are you experiencing?
+      options:
+        - Extension doesn't load/activate
+        - MyAnimeList login/authentication issues
+        - Icons not appearing on Nyaa.si
+        - Wrong status/colors displayed
+        - Performance issues
+        - Popup interface problems
+        - Other (please describe below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is
+      placeholder: "When I click on the Connect to MyAnimeList button, nothing happens..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to Nyaa.si
+        2. Click on ExtraNyaa popup
+        3. Click "Connect to MyAnimeList"
+        4. Nothing happens
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: A clear description of what you expected to happen
+      placeholder: "The MyAnimeList OAuth login should open in a new tab"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened instead
+      placeholder: "No popup appears and no new tab opens"
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Which browser are you using?
+      placeholder: "Chrome 131.0.6778.86"
+    validations:
+      required: true
+
+  - type: input
+    id: extension_version
+    attributes:
+      label: ExtraNyaa Version
+      description: Check chrome://extensions/ for the version number
+      placeholder: "1.2.3"
+    validations:
+      required: false
+
+  - type: textarea
+    id: console_errors
+    attributes:
+      label: Console Errors
+      description: |
+        If you see any errors in the browser console (F12 → Console tab), please paste them here.
+        Enable Debug Mode in ExtraNyaa popup for more detailed logging.
+      placeholder: "Error: Failed to fetch..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here
+      placeholder: "This started happening after I updated Chrome..."
+    validations:
+      required: false

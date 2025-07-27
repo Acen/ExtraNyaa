@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discord Community
+    url: https://discord.gg/your-discord-server
+    about: Join our Discord for general questions and community discussions
+  - name: Documentation
+    url: https://github.com/Acen/ExtraNyaa/blob/main/README.md
+    about: Check the README for setup instructions and troubleshooting
+  - name: Search Existing Issues
+    url: https://github.com/Acen/ExtraNyaa/issues
+    about: Search existing issues before creating a new one

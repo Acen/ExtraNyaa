@@ -1,0 +1,118 @@
+name: 🎯 Anime Matching Issue
+description: Report an anime torrent that ExtraNyaa doesn't match correctly to MyAnimeList
+title: "[MATCH] "
+labels: ["matching", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Help us fix anime matching issues!
+        
+        ExtraNyaa uses advanced title matching to connect Nyaa.si torrents with your MyAnimeList. Sometimes our system can't match certain torrents due to:
+        - Complex title formats
+        - Alternative/unusual romanization
+        - Season numbering differences
+        - Regional title variations
+        
+        Please provide the details below to help us improve our matching algorithm.
+
+  - type: input
+    id: torrent_title
+    attributes:
+      label: Full Torrent Title
+      description: Copy the exact torrent title from Nyaa.si (including group name, episode number, quality, file extension, etc.)
+      placeholder: "[SubsPlease] Mizuzokusei no Mahoutsukai - 02 (1080p) [D983EECA].mkv"
+    validations:
+      required: true
+
+  - type: input
+    id: mal_link
+    attributes:
+      label: Correct MyAnimeList Link
+      description: Link to the anime page on MyAnimeList that this torrent should match to
+      placeholder: "https://myanimelist.net/anime/12345/Anime_Name"
+    validations:
+      required: true
+
+  - type: input
+    id: mal_title
+    attributes:
+      label: MyAnimeList Title
+      description: The main title shown on the MAL page
+      placeholder: "Mizuzokusei no Mahoutsukai"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: current_behavior
+    attributes:
+      label: Current Behavior
+      description: What does ExtraNyaa currently show for this torrent?
+      options:
+        - Shows "Not in MyAnimeList" (question mark icon)
+        - Matches to wrong anime
+        - Shows no icon at all
+        - Other (please explain below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternative_titles
+    attributes:
+      label: Alternative Titles (if known)
+      description: List any alternative titles, synonyms, or English/Japanese names for this anime from MAL
+      placeholder: |
+        - English: The Magician of the Water Tribe
+        - Japanese: 水族性の魔法使い
+        - Synonyms: Aqua Mage, Water Wizard
+    validations:
+      required: false
+
+  - type: textarea
+    id: season_info
+    attributes:
+      label: Season Information
+      description: If this is a sequel/prequel, provide season/part information
+      placeholder: |
+        - This is Season 2 of the series
+        - Previous season was titled "..."
+        - This is Part 3 of a split-cour anime
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Any other helpful information about why this might be hard to match
+      placeholder: |
+        - The torrent uses a different romanization than MAL
+        - The group uses non-standard episode numbering
+        - This is a special episode or OVA
+        - The title has unusual characters or formatting
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm you've checked these items
+      options:
+        - label: I have the anime in my MyAnimeList (Watching, Completed, Plan to Watch, etc.)
+          required: true
+        - label: I've verified the MAL link is correct and accessible
+          required: true
+        - label: I've copied the torrent title exactly as it appears on Nyaa.si
+          required: true
+        - label: I've checked that this issue hasn't been reported already
+          required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## What happens next?
+        
+        Our team will analyze the matching issue and update ExtraNyaa's algorithm to handle this case. The fix will be included in a future release.
+        
+        **Thank you for helping improve ExtraNyaa!**
