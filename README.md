@@ -31,10 +31,9 @@ The extension also automatically builds your anime database as you browse MyAnim
 
 ### 1. Install the Extension
 1. Download the latest release from [Releases](../../releases)
-2. Extract the ZIP file
-3. Open Chrome → `chrome://extensions/`
-4. Enable "Developer mode" → Click "Load unpacked"
-5. Select the extracted folder
+2. Open Chrome → `chrome://extensions/`
+3. Enable "Developer mode"
+5. Drag the downloaded extension into the `chrome://extensions/` window
 
 ### 2. Connect to MyAnimeList
 1. Click the ExtraNyaa icon in Chrome
