@@ -56,8 +56,6 @@ Visit [Nyaa.si](https://nyaa.si) and see your status icons appear next to anime 
 
 ## Need Help?
 
-- **[Installation Guide](INSTALLATION.md)** - Detailed setup instructions
-- **[FAQ](FAQ.md)** - Common questions and solutions
 - **[Issues](../../issues)** - Report bugs or request features
 
 ---
