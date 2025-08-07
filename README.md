@@ -30,10 +30,9 @@ The extension also automatically builds your anime database as you browse MyAnim
 ## Getting Started
 
 ### 1. Install the Extension
-1. Download the latest release from [Releases](../../releases)
-2. Open Chrome → `chrome://extensions/`
-3. Enable "Developer mode"
-5. Drag the downloaded extension into the `chrome://extensions/` window
+1. Visit the [Chrome Web Store page for ExtraNyaa](https://chrome.google.com/webstore/detail/extranyaa/cflojlcgllgkoeeffneclgkngejleoba)
+2. Click "Add to Chrome"
+3. Click "Add extension" to confirm
 
 ### 2. Connect to MyAnimeList
 1. Click the ExtraNyaa icon in Chrome
@@ -53,10 +52,20 @@ Visit [Nyaa.si](https://nyaa.si) and see your status icons appear next to anime 
 - **Read-Only** - Extension only reads your anime list
 - **No Third Parties** - Direct connection between you and MyAnimeList
 
+## Installation
+
+### Quick Install from Chrome Web Store
+1. Visit the [Chrome Web Store page for ExtraNyaa](https://chrome.google.com/webstore/detail/extranyaa/cflojlcgllgkoeeffneclgkngejleoba)
+2. Click "Add to Chrome" 
+3. Connect to MyAnimeList when prompted
+4. Start browsing [Nyaa.si](https://nyaa.si) with status tracking!
+
+**📖 [Full Installation Guide](INSTALLATION.md)** - Detailed setup instructions, troubleshooting, and browser compatibility
+
 ## Need Help?
 
 - **[Issues](../../issues)** - Report bugs or request features
 
 ---
 
-**Download from [Releases](../../releases) and start tracking your anime torrents today!**
+**Install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/extranyaa/cflojlcgllgkoeeffneclgkngejleoba) and start tracking your anime torrents today!**
