@@ -7,14 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.5.1] - 2026-02-19
 
-v1.5.1
+### Bug Fixes
+Episode Count Tracking: Fixed an issue where updating your watched episode count on MyAnimeList would not be detected by the extension
+Improved Change Detection: Episode increment buttons on MAL pages are now reliably detected regardless of which section of the page they appear in
 
 ---
 
 
 ## [v1.4.0] - 2025-12-01
 
-v1.4.0
+### What's New
+Nyaa Listing Filters: Filter torrent listings on Nyaa.si by your MAL anime status (Watching, Completed, Plan to Watch, On Hold, Dropped, Not in List)
+Community Score Badges: Scoring badges now appear on torrent pages showing the community score, your personal score, or both
+
+### Improvements
+Better Title Matching: Improved handling of Unicode symbols in anime titles (e.g. SPY×FAMILY), trailing numbers (e.g. "Tondemo Skill 2"), and ordinal season formats (e.g. "2nd Season" vs "Season 2")
+Smarter Season Detection: More accurate distinction between season and part indicators when matching torrents to MAL entries
 
 ---
 
