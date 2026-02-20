@@ -7,29 +7,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.6.7] - 2026-02-20
 
-tbc
+### What's New
+- **Anime Relationship Tracking**: ExtraNyaa now understands how anime seasons are connected -- sequels, prequels, side stories, and more are automatically discovered from your MAL pages
+- **Series Chain Awareness**: The extension can now piece together full franchise timelines, knowing which seasons come before or after each other
+- **Relationship Data During Sync**: When syncing your anime list, relationship data is now fetched for each anime, prioritizing titles you're currently watching
+- **Expired Session Detection**: If your MAL login expires, the extension now tells you clearly and prompts you to reconnect, instead of silently failing
+
+### Improvements
+- **Smarter Sync Process**: Syncing now happens in two phases -- first your anime list, then relationship data for each title with careful rate limiting to avoid issues
+- **Two-Way Relationships**: When one anime lists another as a sequel, the reverse relationship is automatically recorded too
+- **Cleaner Log Output**: Fixed an issue where debug messages were showing duplicated prefixes
 
 ---
-
 
 ## [v1.5.1] - 2026-02-19
 
 ### Bug Fixes
-Episode Count Tracking: Fixed an issue where updating your watched episode count on MyAnimeList would not be detected by the extension
-Improved Change Detection: Episode increment buttons on MAL pages are now reliably detected regardless of which section of the page they appear in
+- **Episode Count Tracking**: Fixed an issue where updating your watched episode count on MyAnimeList would not be detected by the extension
+- **Improved Change Detection**: Episode increment buttons on MAL pages are now reliably detected regardless of which section of the page they appear in
 
 ---
 
-
-## [v1.4.0] - 2025-12-01
+## [1.4.0] - 2025-12-01
 
 ### What's New
-Nyaa Listing Filters: Filter torrent listings on Nyaa.si by your MAL anime status (Watching, Completed, Plan to Watch, On Hold, Dropped, Not in List)
-Community Score Badges: Scoring badges now appear on torrent pages showing the community score, your personal score, or both
+- **Community Scoring Badges**: Display MAL community scores directly on Nyaa.si torrent listings and single torrent view pages
+- **Status-Based Filtering**: Filter torrent listings based on your anime watch status (hide Completed, show only Plan to Watch, etc.)
 
 ### Improvements
-Better Title Matching: Improved handling of Unicode symbols in anime titles (e.g. SPY×FAMILY), trailing numbers (e.g. "Tondemo Skill 2"), and ordinal season formats (e.g. "2nd Season" vs "Season 2")
-Smarter Season Detection: More accurate distinction between season and part indicators when matching torrents to MAL entries
+- **Enhanced Title Matching**: Improved anime title detection with better handling of ordinal seasons
+- **Trailing Number Handling**: More accurate matching for anime titles with trailing numbers
+- **Smarter Season Extraction**: Enhanced logic for extracting and normalizing season information from torrent titles
 
 ---
 
