@@ -7,7 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.8.1] - 2026-04-04
 
-tbc
+### Improvements
+* **Arc/Subtitle Matching**: Better matching for titles where MAL includes arc or subtitle suffixes
+
+
+---
+
+
+## [v1.8.0] - 2026-04-04
+### Improvements
+* **Romanization Matching**: Improved handling of Japanese romanization differences like compound words and particle variants
+
+
+---
+
+
+## [v1.7.0] - 2026-03-23
+### What's New
+* **Episode Count Format**: Option to display watched episode counts as season:episode (2:11) or absolute (23)
+
 
 ---
 
